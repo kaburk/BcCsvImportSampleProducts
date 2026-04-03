@@ -77,6 +77,20 @@ bin/cake BcCsvImportSampleProducts.generate_test_csv --help
 
 追加UIなしで独自インポート画面を持たせる最小サンプルとして利用できます。
 
+## 動作画面サンプル
+
+初期画面
+<img width="1280" height="882" alt="000" src="https://github.com/user-attachments/assets/95b67688-6018-4f67-bd4b-dc8579396702" />
+処理中
+<img width="1280" height="877" alt="001" src="https://github.com/user-attachments/assets/f283f890-327d-423f-b700-b0a5c8921504" />
+<img width="1280" height="876" alt="002" src="https://github.com/user-attachments/assets/6bd55564-ac8f-4ae0-84ac-46eaef1808c3" />
+
+処理結果
+<img width="1280" height="876" alt="003" src="https://github.com/user-attachments/assets/fa52591f-a769-429c-b982-bc380cc4c377" />
+
+エラーの表示
+<img width="1280" height="875" alt="004" src="https://github.com/user-attachments/assets/4ec60602-91e3-475e-a708-211c7faec1de" />
+
 ## ライセンス
 
 MIT License. 詳細は `LICENSE.txt` を参照してください。
