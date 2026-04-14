@@ -28,7 +28,7 @@
 
 ## 対象テーブル
 
-- Model alias: `BcCsvImportSampleProducts.BcSampleProducts`
+- Model alias: `BcCsvImportSampleProducts.BcCsvSampleProducts`
 - 物理テーブル: `bc_csv_sample_products`
 - 重複キー: `sku`
 
@@ -71,7 +71,7 @@ bin/cake BcCsvImportSampleProducts.generate_test_csv --help
 ## 実装の見どころ
 
 - サービス実装: `src/Service/SampleProductsCsvImportService.php`
-- Table / Entity: `src/Model/Table/BcSampleProductsTable.php`, `src/Model/Entity/BcSampleProduct.php`
+- Table / Entity: `src/Model/Table/BcCsvSampleProductsTable.php`, `src/Model/Entity/BcCsvSampleProduct.php`
 - 専用コントローラー: `src/Controller/Admin/SampleProductsCsvImportsController.php`
 - 画面テンプレート: `BcCsvImportCore` の共通テンプレート `Admin/CsvImports/index` を再利用
 

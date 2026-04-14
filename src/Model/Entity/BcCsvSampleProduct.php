@@ -6,7 +6,7 @@ namespace BcCsvImportSampleProducts\Model\Entity;
 use Cake\ORM\Entity;
 
 /**
- * BcSampleProduct Entity
+ * BcCsvSampleProduct Entity
  *
  * @property int $id
  * @property string $name
@@ -19,7 +19,7 @@ use Cake\ORM\Entity;
  * @property \Cake\I18n\DateTime|null $created
  * @property \Cake\I18n\DateTime|null $modified
  */
-class BcSampleProduct extends Entity
+class BcCsvSampleProduct extends Entity
 {
 
     /**

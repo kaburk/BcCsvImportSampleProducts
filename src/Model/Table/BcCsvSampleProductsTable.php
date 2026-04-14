@@ -7,9 +7,9 @@ use Cake\ORM\Table;
 use Cake\Validation\Validator;
 
 /**
- * BcSampleProductsTable
+ * BcCsvSampleProductsTable
  */
-class BcSampleProductsTable extends Table
+class BcCsvSampleProductsTable extends Table
 {
 
     /**

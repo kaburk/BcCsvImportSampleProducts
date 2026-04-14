@@ -25,7 +25,7 @@ class SampleProductsCsvImportService extends CsvImportService implements CsvImpo
      */
     public function getTableName(): string
     {
-        return 'BcCsvImportSampleProducts.BcSampleProducts';
+        return 'BcCsvImportSampleProducts.BcCsvSampleProducts';
     }
 
     /**
